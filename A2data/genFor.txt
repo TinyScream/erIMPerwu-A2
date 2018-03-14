@@ -1,0 +1,7 @@
+{
+  <|java+constructor:///Book/Book(java.lang.String,java.lang.String,java.lang.String)/this|,|java+class:///Book|>,
+  <|java+constructor:///Loan/Loan(User,Document)/this|,|java+class:///Loan|>,
+  <|java+constructor:///Journal/Journal(java.lang.String)/this|,|java+class:///Journal|>,
+  <|java+constructor:///InternalUser/InternalUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/this|,|java+class:///InternalUser|>,
+  <|java+constructor:///TechnicalReport/TechnicalReport(java.lang.String,java.lang.String,java.lang.String)/this|,|java+class:///TechnicalReport|>
+}

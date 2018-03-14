@@ -1,0 +1,17 @@
+{
+  <|java+constructor:///Book/Book(java.lang.String,java.lang.String,java.lang.String)/this|,|java+variable:///Main/addBook(java.lang.String)/doc|>,
+  <|java+constructor:///Journal/Journal(java.lang.String)/this|,|java+variable:///Main/addJournal(java.lang.String)/doc|>,
+  <|java+constructor:///java/io/BufferedReader/BufferedReader(java.io.Reader)/this|,|java+variable:///Main/main(java.lang.String%5B%5D)/scope(0)/scope(0)/in|>,
+  <|java+constructor:///java/io/InputStreamReader/InputStreamReader(java.io.InputStream)/this|,|java+method:///Main/main(java.lang.String%5B%5D)/__param7336_0|>,
+  <|java+constructor:///TechnicalReport/TechnicalReport(java.lang.String,java.lang.String,java.lang.String)/this|,|java+variable:///Main/addReport(java.lang.String)/doc|>,
+  <|java+constructor:///java/lang/Integer/Integer(int)/this|,|java+method:///Library/removeUser(int)/__param506_0|>,
+  <|java+constructor:///java/lang/Integer/Integer(int)/this|,|java+method:///Library/removeDocument(int)/__param998_0|>,
+  <|java+constructor:///Loan/Loan(User,Document)/this|,|java+variable:///Library/borrowDocument(User,Document)/scope(0)/loan|>,
+  <|java+constructor:///Loan/Loan(User,Document)/this|,|java+variable:///Library/returnDocument(Document)/scope(0)/loan|>,
+  <|java+constructor:///Loan/Loan(User,Document)/this|,|java+method:///Library/isHolding(User,Document)/__param2238_0|>,
+  <|java+constructor:///InternalUser/InternalUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/this|,|java+variable:///Main/addintUser(java.lang.String)/user|>,
+  <|java+constructor:///InternalUser/InternalUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)/this|,|java+variable:///Main/addUser(java.lang.String)/user|>,
+  <|java+constructor:///java/util/LinkedList/LinkedList()/this|,|java+variable:///Library/searchDocumentByAuthors(java.lang.String)/docsFound|>,
+  <|java+constructor:///java/util/LinkedList/LinkedList()/this|,|java+variable:///Library/searchDocumentByTitle(java.lang.String)/docsFound|>,
+  <|java+constructor:///java/util/LinkedList/LinkedList()/this|,|java+variable:///Library/searchUser(java.lang.String)/usersFound|>
+}
