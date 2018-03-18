@@ -1,0 +1,18 @@
+[
+  _edge(
+    "|java+class:///Document|",
+    "|java+field:///Library/documents|",
+    []),
+  _edge(
+    "|java+class:///User|",
+    "|java+field:///Loan/user|",
+    []),
+  _edge(
+    "|java+class:///User|",
+    "|java+field:///Library/users|",
+    []),
+  _edge(
+    "|java+class:///Document|",
+    "|java+field:///Loan/document|",
+    [])
+]

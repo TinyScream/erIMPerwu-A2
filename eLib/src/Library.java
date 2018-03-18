@@ -4,9 +4,17 @@
  class Library {
 	Map documents = new HashMap();
 	Map users = new HashMap();
-	Collection loans = new LinkedList();
+	//Map<Integer, User> users = new HashMap<>();
+	Collection loans = new LinkedList(); 
+	//Collection<Loan> loans = new LinkedList<>();
 	final int MAX_NUMBER_OF_LOANS = 20;
- 
+
+	 private class Inner_Cls {
+	      public void print() {
+	    	  Collection inner_loans = new LinkedList(); 
+	      }
+	 }
+	
  public boolean addUser(User user) {
 	if (!users.containsValue(user)) {
 		users.put(2, user);	
